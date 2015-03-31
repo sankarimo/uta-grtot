@@ -1,0 +1,6 @@
+GRTOT
+harjoitus 1, tehtävä 5
+
+Otsikkotekstin muutos.
+
+Otsikon määrittää rakentimessa (metodi Main) tehtävä määritelmä super(). Sille annettu tekstiparametri päätyy otsikoksi (esim. rivin korvaus rivillä super("Week 1 excercise 5");). Syyksi uudelleennimeämiselle on tällä kertaa selkeyden tavoittelu.

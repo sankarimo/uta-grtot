@@ -1,0 +1,6 @@
+GRTOT
+harjoitus 1, tehtävä 3
+
+Painonapin käsittely.
+
+Koska tehtävässä 2 tehtiin tarvittava määritys napin tapahtumien poimimiselle ja luokassa on jo tapahtuman käsittely, ei demo-ohjelma tarvitse lisämuutoksia.

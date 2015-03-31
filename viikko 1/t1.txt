@@ -1,0 +1,7 @@
+GRTOT
+harjoitus 1, tehtävä 1
+
+a)
+	Hiiren ja näppäimistön syöttötapahtumien ero on siinä, että hiiren liikkeisiin ja painalluksiin ei välttämättä löydy itsestäänselvää kohdetta. Näppäimistön ollessa kyseessä syöttötapahtuma koskee yleensä avointa tekstikenttää tai aktiivista ikkunaa (tai sen osaa), poikkeuksena vain globaalit näppäinyhdistelmät (esim. ctrl+s, alt+tab, ctrl+alt+delete), jotka eivät päädy niin "syvälle". Hiiren syöttötapahtumissa ikkunointijärjestelmällä on suurempi vastuu, sillä klikkauksenkin rooli riippuu merkittävästi siitä, minkä yllä kursori tapahtumahetkellä on.
+b)
+	Kyselyt ovat tapa selvittää tietoa silloin kun sille on käyttöä. Tapahtumilla tieto saadaan heti kun jotakin tapahtuu. Täten kyselyt ovat hyödyllisiä kun prosessi ei ole kriittinen: kysytään tapahtumia kun on aikaa niiden käsittelyyn. Kyselyiden välissä kuluva aika voidaan käyttää tehokkaaseen suorittamiseen, kun tiedetään, ettei käyttäjän toimet voi sitä keskeyttää. Kyselyä voi tapahtua useinkin, mutta tällöin niistä saattaa tulla suorituskykyä heikentävä osuus. Selkeänä haittana harvoin tehtävälle kyselylle on nimenomaan käyttöliittymässä se, että responsiivisuus, vastaanottamisen herkkyys, katoaa. Käyttäjä voi painaa nappia saamatta tästä minkäänlaista välitöntä palautetta, voiden johtaa toiseen klikkaukseen, jotka samanaikaisesti kyselyn jälkeen käsiteltynä palauttavat tilan alkuperäiseksi ja kiusaavat käyttäjää.

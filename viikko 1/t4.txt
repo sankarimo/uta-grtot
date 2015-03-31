@@ -1,0 +1,6 @@
+GRTOT
+harjoitus 1, tehtävä 4
+
+Luokan perimän pack-metodin selitys.
+
+Pack-kutsu selvittää ikkunakomponenttien koon ja sovittaa luotavan ikkunan sen mukaiseksi. Lopuksi ikkuna validoidaan.

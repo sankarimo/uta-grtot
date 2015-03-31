@@ -1,0 +1,9 @@
+GRTOT
+harjoitus 2, tehtävä 2
+
+Selitä Observer-suunnittelumallin toiminta.
+
+Suunnittelumalli tähtää hajautettun tapahtumapäivityksen mahdollistamiseen. Luokkakohtaisesti 
+voidaan määrittää oliosta tarkkailtava, jolloin muut komponentit voivat jättää tälle päivityspyyntöjä. 
+Aina jotakuta potentiaalisesti kiinnostavan tapahtuman sattuessa, tarkkailtava käy läpi listan siitä 
+kiinnostuneista tahoista, ja ilmoittaa asiasta näille.

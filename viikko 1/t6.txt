@@ -1,0 +1,11 @@
+GRTOT
+harjoitus 1, tehtävä 6
+
+Alustuspainikkeen lisäys.
+
+Tehdään seuraavat lisäykset (suluissa rivinumero):
+1. Määritetään luokalle uusi attribuutti reset (13): private JButton reset;
+2. Alustetaan se rakentimessa (20): reset = new JButton("Reset state");
+3. Lisätään komponentti ikkunaan (25): this.getContentPane().add(reset);
+4. Lisätään napille kuuntelija ja kuvaus (28-29): button.addActionListener(this); button.setActionCommand("RESET");
+5. Korvataan actionPerformed-metodi vanhaan pohjaten (35-40): public void actionPerformed(ActionEvent ae) { if (ae.getActionCommand() == "NAPPI") label.setText(label.getText.equals("flip") ? "flop" : "flip"); else label.setText("flip"); }

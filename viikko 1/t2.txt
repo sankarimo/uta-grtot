@@ -1,0 +1,8 @@
+GRTOT
+harjoitus 1, tehtävä 2
+
+Lisätään ohjelmalle tapahtumienkuunteluominaisuus ja määritetään nappi käyttämään tätä.
+
+1. Lisätään riville 10 rajapinnan ActionListener toteutuksen julistus, "--, implements ActionListener {"
+2. Määritetään napille (button) tapahtumakäsittelijäksi tämän luokan olio, riville 24 "button.addActionListener(this);"
+3. Koska toteutus rajapinnalle on jo olemassa riveillä 27-29, toimii nappi nyt oikein
